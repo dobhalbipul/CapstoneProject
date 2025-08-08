@@ -19,18 +19,23 @@ This project implements a complete machine learning pipeline to predict heart di
 
 ```
 CapstoneProject/
-├── heart-disease/
-│   ├── HeartDisease.csv          # Dataset
-│   └── notebook/
-│       └── heart_disease_prediction.ipynb  # Main analysis notebook
-├── output/                       # Generated files (created after running)
-│   ├── pipelines/               # Trained model files
-│   ├── metadata/                # Model metadata and configuration
-│   └── functions/               # Standalone prediction functions
-├── requirements.txt             # Project dependencies
-├── README.md                   # Project documentation
-├── .gitignore                  # Git ignore rules
-└── LICENSE                     # Project license
+├── heart-disease/                   # Main project directory
+│   ├── cardiopredict_machine learning for heart disease prediction.pdf  # Project documentation
+│   ├── HeartDisease.csv            # Dataset (253,680 patient records)
+│   ├── notebook/                   # Jupyter notebooks
+│   │   └── heart_disease_prediction.ipynb  # Main analysis notebook
+│   └── output/                     # Output directory (generated after running)
+│       ├── pipelines/              # Trained model files (.pkl)
+│       ├── metadata/               # Model metadata and configuration (.json)
+│       └── functions/              # Standalone prediction functions (.py)
+├── heart_disease_prediction.ipynb  # Main notebook (root level)
+├── heart_disease_prediction_test.ipynb  # Test notebook
+├── requirements.txt                # Project dependencies
+├── README.md                       # Project documentation
+├── CONTRIBUTING.md                 # Contribution guidelines
+├── .gitignore                      # Git ignore rules
+├── LICENSE                         # MIT License
+└── .venv/                          # Virtual environment (local)
 ```
 
 ## Installation
