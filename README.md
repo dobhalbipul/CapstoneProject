@@ -37,14 +37,14 @@ CapstoneProject/
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/bdobhalx/CapstoneProject.git
+git clone https://github.com/dobhalbipul/CapstoneProject.git
 cd CapstoneProject
 ```
 
 2. **Create a virtual environment (recommended):**
 ```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+python -m venv .venv
+source .venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
 3. **Install dependencies:**
